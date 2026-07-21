@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 200 6% 95%;
+    --foreground: 200 21% 18%; /* #243138 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 6% 16%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 6% 16%;
+
+    --primary: 200 89% 22%; /*#06496a */
+    --primary-foreground: 0 0% 100%;
+
+    --brand-surface: 202 37.4% 74.3%; /* #a4c3d5 */
+    --brand-surface-foreground: 200 89% 22%;
+
+    --secondary: 200 6% 90%;
+    --secondary-foreground: 200 6% 16%;
+
+    --muted: 200 6% 90%;
+    --muted-foreground: 200 6% 45%;
+
+    --accent: 200 6% 90%;
+    --accent-foreground: 200 6% 16%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 200 6% 88%; 
+    --input: 0 0% 100%;
+    --ring: 200 89% 22%;
+
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-stone-100 text-foreground antialiased;
+  }
+
+  input, 
+  select, 
+  textarea, 
+  button[role="combobox"],
+  .date-picker-trigger {
+    @apply h-9 w-full rounded-md border border-stone-300 bg-white py-1 text-sm transition-all outline-none !important;
+    @apply px-3; 
+  }
+
+  input:focus,
+  .date-picker-trigger:focus-within {
+    @apply border-primary ring-2 ring-primary/20 !important;
+  }
+
+  button[role="combobox"]:focus {
+    @apply border-stone-400 ring-0 !important;
+  }
+
+  label {
+    @apply text-[13px] font-bold text-[#06486a] mb-1 block;
+  }
+}

@@ -1,0 +1,120 @@
+# =========================
+# Python / Backend
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Variáveis de ambiente
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Banco de dados local / SQLite
+# =========================
+instance/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlt
+
+# Banco específico do APScheduler
+scheduler_jobs.sqlite
+scheduler_jobs.sqlt
+
+# =========================
+# Pastas que você não quer subir
+# =========================
+backend/ignore/
+
+# =========================
+# Frontend / Node / Vite
+# =========================
+node_modules/
+dist-ssr/
+*.local
+
+# Logs do Node
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log_*.txt
+log_execucao.txt
+
+# =========================
+# Arquivos gerados / relatórios
+# =========================
+Relatorio_Senhas_Certificados*.xlsx
+*.xlsx
+*.xls
+*.csv
+
+# =========================
+# Certificados e arquivos sensíveis
+# =========================
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+*.cer
+
+# =========================
+# Uploads / arquivos enviados e gerados
+# =========================
+backend/static/uploads/
+backend/static/generated/
+
+# =========================
+# Arquivo local de inicialização
+# =========================
+INICIAR_PROGRAMA.bat
+backend/INICIAR_PROGRAMA.bat
+
+# =========================
+# Testes / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Build / distribuição
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# IDEs / editores
+# =========================
+.idea/
+.vscode/
+*.sw?
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
