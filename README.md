@@ -26,6 +26,8 @@ Para apresentação neste portfólio, elementos visuais, informações e referê
 | ![FormA](./telas/contratos/tela_form_adesao.png) | ![FormA](./telas/contratos/tela_form_adesao2.png) |
 | **Formulário de Distrato** | **Distrato Inadimplência** |
 | ![FormD](./telas/contratos/tela_form_distrato.png) | ![FormD](./telas/contratos/tela_form_distrato_inad.png) |
+| **Tela de Login** | **Tela de Criação de usuário** |
+| ![FormD](./telas/autenticacao/tela_login.png) | ![FormD](./telas/autenticacao/tela_criar_user.png) |
 ---
 
 ## Tecnologias Utilizadas
